@@ -1,4 +1,4 @@
 package com.codecool.apiwars.controller;
 
-public class WarController {
+public class MoodController {
 }
