@@ -15,4 +15,9 @@ public class User {
 
     @Column(nullable = false, unique = true)
     private String name;
+
+    public User(String name, String psw){
+        this.name = name;
+        this.psw = psw;
+    }
 }
